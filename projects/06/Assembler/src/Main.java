@@ -7,7 +7,7 @@ public class Main {
         Code code = new Code();
         Parser parser = new Parser();
         try {
-            String sourceFileName = "args[0]";
+            String sourceFileName = args[0];
             String targetFileName = sourceFileName.split("\\.")[0] + ".hack";
 
             File sourceFile = new File(sourceFileName);
